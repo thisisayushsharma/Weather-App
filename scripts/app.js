@@ -4,8 +4,8 @@ import * as view from './view.js'
 const API_KEY = `8cb5fc7692c74687979215041221104`;
 const DEFAULT_LOCATION = `NEW ORLEANS`;
 const BIN_ID = '6256242f21e89024ee8baf5a';
-const GET_RECENT = `https://api.jsonbin.io/b/${BIN_ID}/latest`;
-const PUT_RECENT = `https://api.jsonbin.io/b/${BIN_ID}`;
+const GET_RECENT = `https://cors-everywhere-me.herokuapp.com/https://api.jsonbin.io/b/${BIN_ID}/latest`;
+const PUT_RECENT = `https://cors-everywhere-me.herokuapp.com/https://api.jsonbin.io/b/${BIN_ID}`;
 
 var state = {};
 
