@@ -20,12 +20,4 @@ export const PlayScene = (props) => { //Function for HTML view
     `
     )
 }
-var input;
-const element = document.getElementById("name");
-if (element != null) {
-    input = element.value
-}
-//else{
-  //  input = null;
-//}
-//export default input.json;
+

@@ -6,13 +6,13 @@ export const sendGETRequest = async (url) => { //Asynchronous function
     return data //return data as an Object
 }
 
-export const sendPUTRequest = async (url, data) => {
-    const options = new Object();
-    options.method = "PUT";
-    options.headers = {"Content-type": "application/json"};
-    options.body = JSON.stringify(data)
-    const response = await fetch(url, options);
-    return response
-}
+//export const sendPUTRequest = async (url, data) => {
+//    const options = new Object();
+//    options.method = "PUT";
+//    options.headers = {"Content-type": "application/json"};
+//    options.body = JSON.stringify(data)
+//    const response = await fetch(url, options);
+//    return response
+//}
 
     
